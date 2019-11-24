@@ -1,0 +1,165 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+body{
+    background-image: url(/DropDownMenus/resources/tec1.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 0.9rem;
+}
+
+.menubar{
+    background: green;
+    text-align: center;
+
+}
+
+.menubar ul{
+
+    display: inline-flex;
+    list-style: none;
+
+
+}
+
+.menubar ul li{
+    width: 130px;
+    padding: 10px;
+  
+    
+}
+
+.menubar ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.menubar ul li :hover{
+    background: turquoise;
+    border-radius: 2px;
+    padding: 5px;
+
+}
+
+.menubar .fa{
+    margin-right: 2px;
+}
+
+.sub4{
+display: none;
+font-size: 0.8rem;
+
+}
+
+.menubar ul li:hover .sub4{
+
+    display: block;
+    position: absolute;
+    background: green;
+    margin-top: 10px;
+}
+
+.menubar ul li:hover .sub4 ul{
+    display: block;
+    padding: 5px;
+}
+
+.menubar ul li:hover .sub4 ul li{
+
+    width:120px;
+    border-bottom: 1px dotted gray;
+  
+      
+
+}
+
+.sub1{
+    display:none;
+    font-size: 0.7rem;
+}
+.sub2{
+    display: none;
+    font-size: 0.7rem;
+}
+
+.menubar ul li:hover .sub1{
+    display: block;
+    position: absolute;
+    background: green;
+    margin-top: 10px;
+}
+
+.menubar ul li:hover .sub1 ul {
+    display: block;
+    background: green;
+    padding: 5px;
+
+}
+
+.menubar ul li:hover .sub1 ul li{
+    width:120px;
+    border-bottom: 1px dotted gray;
+
+}
+
+.menubar ul li:hover .sub2{
+    display: block;
+    position: absolute;
+    background: green;
+    margin-top: 10px;
+}
+
+.menubar ul li:hover .sub2 ul {
+    display: block;
+    background: green;
+    padding: 5px;
+
+}
+
+.menubar ul li:hover .sub2 ul li{
+    width:120px;
+    border-bottom: 1px dotted gray;
+
+}
+
+.menubar ul li:hover .sub2 ul li :last-child{
+
+    border-bottom: none;
+
+}
+
+
+.menubar ul li:hover .sub4 ul li :last-child{
+
+    border-bottom: none;
+
+}
+
+.menubar ul li:hover .sub1 ul li :last-child{
+
+    border-bottom: none;
+
+}
+
+.menubar ul li:hover .sub2 ul li a:hover {
+    color: red;
+
+}
+.menubar ul li:hover .sub1 ul li a:hover {
+    color: red;
+
+}
+.menubar ul li:hover .sub4 ul li a:hover {
+    color: red;
+
+}
+
+.menubar ul li:hover a:hover{
+    color: red;
+
+}
